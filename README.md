@@ -2,15 +2,15 @@
 
 ## Instructions, files, code for Lab 6.
 
-What if you aren't nearby the computer you need to work on?
+# INET4031 Lab 4 Website
 
-Up until this point, our Lab activities have been accomplished by doing them on our laptops.
+This repository contains the Lab 4 web page for INET 4031. The goal of this lab is to understand how HTML and JavaScript work together to create an interactive webpage. The page includes a simple example where clicking buttons can turn a lightbulb on and off. This shows how JavaScript can change HTML elements directly from the browser. 
 
-In this activity we explore the concept of "servers."  Which typically aren't located where we are.
+The repository includes:
+- `webpagewithjs.html` – The main web page with HTML and JavaScript.
+- `pic_bulbon.gif` and `pic_bulboff.gif` – Images used for the lightbulb animation.
 
-We have to connect to them remotely
-
-This Lab explores that concept.
+**Aishwarya Ramkumar** 
 
 
 

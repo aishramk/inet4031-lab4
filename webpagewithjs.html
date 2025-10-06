@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Aishwarya’s Lightbulb Demo</title>
+  <style>
+    body {
+      background-color: rgb(242, 162, 213); /* new background color */
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      color: rgb(9, 0, 0);
+    }
+    button {
+      margin: 10px;
+      padding: 8px 16px;
+      font-size: 15px;
+    }
+  </style>
+</head>
 <body>
 
-<h2>Simple Web Page with HTML and JavaScript</h2>
+  <h2>Aishwarya’s Lightbulb Page</h2>
 
-<p>JavaScript can change HTML attribute values.</p>
+  <p>This simple page uses JavaScript to control an image — turning the light on and off with a button click.</p>
 
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+  <img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+  <br><br>
 
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+  <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+  <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
 
 </body>
 </html>
